@@ -34,6 +34,8 @@ nav ul {
   gap: 30px;
   justify-content: space-between;
   margin: 0 20px;
+  background-color: #F4E4D6;
+  padding: 20px
 }
 
 .section-image-with-text .text-portion {
@@ -69,6 +71,47 @@ nav ul {
   text-align: center;
 }
 
+.section-text {
+  padding: 40px 100px;
+  background-color: #F4E4D6;
+}
+
+.section-text .quote {
+  font-size: 34px;
+  font-style: italic;
+}
+
+.section-text .author-name {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.section-signup {
+  margin: 60px 40px;
+  padding: 20px 40px;
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  background-color: brown;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.section-signup a {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #F4E4D6;
+  text-align: center;
+  padding: 10px 0;
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -91,6 +134,21 @@ nav ul {
   }
 
   .section-collection .product-collection {
+    flex-direction: column;
+  }
+
+  .section-text {
+    padding: 20px 50px;
+  }
+  .section-text .quote {
+    font-size: 24px;
+  }
+
+  .section-text .author-name {
+    font-size: 14px;
+  }
+
+  .section-signup {
     flex-direction: column;
   }
 }
