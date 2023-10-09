@@ -51,7 +51,23 @@ nav ul {
   width: 100%;
 }
 
+.section-collection {
+  margin: 0 20px;
+  text-align: center;
+}
 
+.section-collection .product-collection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-collection .product-collection .collection-item{
+  flex: 1 1 0;
+}
+
+.product-collection {
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .header {
@@ -72,5 +88,9 @@ nav ul {
   .section-image-with-text{
     flex-direction: column;
     gap: 10px;
+  }
+
+  .section-collection .product-collection {
+    flex-direction: column;
   }
 }
