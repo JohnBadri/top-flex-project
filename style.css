@@ -29,6 +29,30 @@ nav ul {
   padding: 0;
 }
 
+.section-image-with-text {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.section-image-with-text .text-portion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0;
+}
+
+.section-image-with-text .image-portion {
+  flex: 1 1 0;
+}
+
+.section-image-with-text .image-portion img {
+  width: 100%;
+}
+
+
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -41,6 +65,11 @@ nav ul {
   }
 
   nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-image-with-text{
     flex-direction: column;
     gap: 10px;
   }
