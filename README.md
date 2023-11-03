@@ -1,5 +1,7 @@
 # Odin Project: Flexbox Layout
 
+Live Demo - https://johnbadri.github.io/top-flex-project/
+
 This repository contains a Flexbox-based responsive layout for a web project as part of The Odin Project curriculum.
 
 ## Features
