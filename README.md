@@ -13,10 +13,6 @@ This repository contains a Flexbox-based responsive layout for a web project as 
 - Sign-up section.
 - Responsive footer.
 
-## Usage
-
-Directly edit the HTML and CSS files to customize the content and styles according to your project requirements.
-
 ## Acknowledgments
 
 - The Odin Project community
